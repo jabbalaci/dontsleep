@@ -7,7 +7,7 @@
 For watching movies, I have a laptop connected to my TV
 and the movies are stored on an external HDD. However,
 this HDD goes to sleep very quickly when not used. When
-I want to use it again, it requires around 10 seconds to
+I want to use it again, it requires several seconds to
 spin up. How to keep this HDD awake, i.e. how to prevent it
 from falling asleep?
 
@@ -18,7 +18,10 @@ every X seconds, thus it's used constantly and it cannot
 go to sleep mode.
 
 This simple program does exactly this. It writes an empty
-file to the HDD every 2 minutes.
+file to the HDD every 5 minutes.
+
+I measured my HDD and it shuts itself down in around
+6 minutes and 20 seconds.
 
 ## Usage
 

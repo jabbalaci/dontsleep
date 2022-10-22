@@ -9,7 +9,7 @@ import (
 const (
 	fname    = "d:/tmp/dontsleep.txt"
 	content  = ""
-	duration = 2 * time.Minute
+	duration = 5 * time.Minute
 	version  = "0.1.0"
 )
 
